@@ -1,0 +1,24 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+.Container{
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Container_FacePicture{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    margin-left: 50px;
+}
+
+.Container_Content_Welcome{
+    margin-left: 50px;
+    font-size: 30px;
+}

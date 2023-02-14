@@ -24,20 +24,41 @@
   width: 900px;
   height: 400px;
   background: url(Images/gif_Top_Tecnology.gif);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .Container_Cober_Contrast{
     display: flex;
     align-items: center;
-    justify-content: center;
-    background: rgb(255, 255, 255, 0.5);
+    background: #0084ff30;
     height: 400px;
     width: 900px;
 }
 
+.Container_Cober_Contrast_IMGContainer{
+  display: flex;
+  align-items: center;
+  margin: 20px;
+}
+
+.Container_Content_Welcome h2{
+  margin-bottom: 10px;
+}
+
+.Container_Content_Welcome p{
+  margin-top: 10px;
+}
+
+.Welcome{
+  color: #ffffff;
+  font-size: 45px;
+}
+
 .Container_Cober_FacePicture {
-  height: 300px;
-  width: 300px;
+  height: 350px;
+  width: 350px;
   border-radius: 100%;
 }
 
